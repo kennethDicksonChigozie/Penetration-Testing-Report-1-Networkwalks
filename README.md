@@ -156,7 +156,7 @@ exploits. It also leaks the server IP and an email address.**
 Nslookup was used to resolve the targets domain name to its IP address. The provided result identified ```192.232.216.135.```
 > **Command used: ```nslookup networkwalks.com; OR, $ nslookup -vc networkwalks.com 8.8.8.8```**```**
 
-<img width="1920" height="1080" alt="wk2-pm1-result-nslookup networkwalks" src="https://github.com/user-attachments/assets/92b4a0c1-7f45-47ed-aeb6-7bb768ace91b" />
+<img width="1917" height="916" alt="nslook new snap" src="https://github.com/user-attachments/assets/7e46597a-07be-4002-b309-e6bcc855e53c" />
 
 > ⚠️ **Security relevance: nslookup turns a domain name into its real IP address (192.232.216.135). Knowing the IP lets an 
 attacker scan the server directly, look up other sites on the same IP, and map the target's 
@@ -168,7 +168,7 @@ infrastructure.**
 Curl was used with the -I option to inspect the HTTP response headers. This provided additional information about the web application and exposed the WordPress REST API endpoint /wp-json/.
 > **Command used: ```curl -I https://networkwalks.com```**
 
-<img width="1920" height="1006" alt="wk2-pm1-result-curl -I networkwalks" src="https://github.com/user-attachments/assets/da4a2f3a-0c1b-4d23-99ec-abd12017a057" />
+<img width="1917" height="917" alt="curl -I screenshots" src="https://github.com/user-attachments/assets/375e46ed-24eb-4e69-8bb4-fb57f41e441a" />
 
 > ⚠️ **Security relevance: HTTP headers leak the web server, caching stack and hidden endpoints (here the WordPress 
 REST API at /wp-json/). Attackers read headers to fingerprint the stack and find entry points 
@@ -180,7 +180,7 @@ without even loading the full page.**
 wafwoof was used to determine whether a Web Application Firewall was protecting the website. The result identified ModSecurity (SpiderLabs) Web Application Firewall.
 > **Command used: ```wafwoof networkwalks.com```**
 
-<img width="1920" height="1080" alt="wk2-pm1-results-wafw00f networkwalks" src="https://github.com/user-attachments/assets/f9d2172b-18da-448c-af9a-e968dc21cc44" />
+<img width="1915" height="917" alt="wafwoof screenshots" src="https://github.com/user-attachments/assets/61f36246-ea62-4bac-8b9b-1d7728c5d41d" />
 
 > ⚠️ **Security relevance: wafwoof tells an attacker if a firewall is watching. Here the site sits behind ModSecurity
 (SpiderLabs). Knowing a WAF is present shapes the whole attack: naive attempts will be blocked 
@@ -192,7 +192,7 @@ or logged, so the attacker must adapt or try to bypass it.**
 dnsrecon was used to enumerate DNS records. The results provided information relating to name servers, mail servers, SPF/TXT records, service records and DNS software information.
 > **Command used: ```dnsrecon -d networkwalks.com```**
 
-<img width="1920" height="1080" alt="wk2-pm1-result-dnsrecon -d networkwalks" src="https://github.com/user-attachments/assets/63541c8b-9e58-412d-9d78-6a60e5a5966a" />
+<img width="1917" height="921" alt="dnsrecon screenshots" src="https://github.com/user-attachments/assets/c6cff838-3ba1-436a-a673-9502e6067b96" />
 
 > ⚠️ **Security relevance: dnsrecon maps the target's entire DNS footprint: mail servers, DNS software version (Bind 
 9.16.23), SPF policy and cPanel service records. Each record is a potential foothold and helps an 
@@ -230,16 +230,16 @@ e). Generate a network topology
 
 ## 5.2.2 Example of Hosts Identified
 ```text
-10.251.186.123
-10.251.186.152
+192.168.56.1
+192.168.0.190
 ```
 - The example results also included two MAC addresses.
 
 **See images below**
 
-<img width="1918" height="1080" alt="week 2-pm 5-task 3" src="https://github.com/user-attachments/assets/9990ef7a-9e7c-41d5-8b6c-b942b7095a2d" />
+<img width="1907" height="1011" alt="nmap scan" src="https://github.com/user-attachments/assets/9947c40d-c121-4acc-a69c-73da483b61c3" />
 
-<img width="1917" height="1077" alt="wk 2-pm 5-task 3" src="https://github.com/user-attachments/assets/155dc514-da99-4554-916f-4e4a9a412227" />
+<img width="1905" height="1012" alt="nmap 192 168 56 1" src="https://github.com/user-attachments/assets/3111f335-7fb8-405d-94ba-68935a2d87ff" />
 
 ---
 
