@@ -245,11 +245,10 @@ e). Generate a network topology
 
 # 📑 6. Networkwalks Zenmap Quiz Results
 
-<img width="1920" height="1080" alt="nmap result 1" src="https://github.com/user-attachments/assets/575db887-5cd4-4f6f-a244-22cfa98bfdb9" />
+<img width="1917" height="1017" alt="QUIZE RESULT" src="https://github.com/user-attachments/assets/c247416f-0b7c-43c9-9c92-4d6921f9ffbc" />
 
-<img width="960" height="540" alt="zenmap result 2" src="https://github.com/user-attachments/assets/9435631c-34dd-4451-819f-ea9195980ba1" />
+<img width="1917" height="1017" alt="QUIZE RESULT 2" src="https://github.com/user-attachments/assets/904c6178-d43b-45bb-98b5-7f6cecaf9edf" />
 
-<img width="960" height="540" alt="zenmap result 3" src="https://github.com/user-attachments/assets/183b9002-4551-4951-a8c3-b3a2f22d7dae" />
 
 ---
 
@@ -353,11 +352,13 @@ This experience emphasized that robust reconnaissance is critical for identifyin
 
 <div align="center">
   
-**Ukwueze Uchenna Collins**
+**Dickson Kenneth Chigozie**
 
 **Cybersecurity Intern | Networkwalks | Batch B084**
 
-LinkedIn: www.linkedin.com/in/uchenna-u-6b4377367
+LinkedIn: www.linkedin.com/in/kenneth-dickson-3868631b3
+
+
 
 </div>
 
