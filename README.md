@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 PENETRATION TESTING REPORT
+# 👨‍💻 PENETRATION TESTING REPORT
 
 **FOOTPRINTING & NETWORK SCANNING PHASES**
 </div>
@@ -24,7 +24,7 @@ W2-PM-FINAL | CYBERSECURITY |  NETWORKWALKS
   
 </div> 
 <p align="left">
-🚧 Project Overview 
+🚥 Project Overview 
 </p>
 
 </div> 
@@ -34,7 +34,7 @@ W2-PM-FINAL | CYBERSECURITY |  NETWORKWALKS
 |---|---|
 | **Pentester** | **Dickson Kenneth Chigozie** |
 | **Program/Batch** | Networkwalks-B084 |
-| **Date** | 11<sup>th</sup> November, 2026 |
+| **Date** | 12<sup>th</sup> November, 2026 |
 | **Modules completed** | W2-PM1 (Multiple Kali Tools)<br>W2-PM5 (Zenmap Scanning) |
 | **Client/Target** | 1. Networkwalks (secured written permission already)<br>2. My own local LAN Network |
 | **Permission secured from client?** | Yes |
@@ -42,14 +42,14 @@ W2-PM-FINAL | CYBERSECURITY |  NETWORKWALKS
 
 ---
 
-# 🎯 1. Liability Disclaimer
+# ⛔ 1. Liability Disclaimer
 
 The activities documented in this report were conducted strictly on systems and devices for which prior written authorization was obtained, or on personally owned hardware. The contents of this document are intended strictly for educational and research purposes. The instructor, author, and Networkwalks assume no liability for the misuse or misapplication of this knowledge; all subsequent actions taken by the reader are their sole responsibility. Unauthorized system access constitutes a criminal offense in most jurisdictions, regardless of whether data or systems are damaged, and can result in severe legal penalties, significant fines, career impact (employment termination), and a permanent criminal record. 
 > ⚠️ **Note: Authorization must be Secured from Networkwalks before performing reconnaisance & footprinting**
 
 ---
 
-# ☄️ 2. Introduction
+# 🔦 2. Introduction
 
 As part of my Networkwalks internship program (week 2), this report provides a comprehensive analysis of the Footprinting/Reconnaissance phases targeting the networkwalks.com domain and subsequent scanning of the local network utilizing Zenmap. By leveraging a combination of Kali Linux tools and Zenmap, this assessment simulates how a malicious actor actively maps live network hosts. The methodology mirrors an attacker's lifecycle, transitioning from passive data gathering (W2-PM1) to active host discovery (W2-PM5).
 
@@ -66,7 +66,7 @@ To ensure reproducibility and rigorous documentation, every technical step outli
 
 ---
 
-# ⚒️ 3. Tools Used
+# 🧰 3. Tools Used
 
 Each tool used and its purpose can be found in the table below.
 
@@ -89,7 +89,7 @@ Each tool used and its purpose can be found in the table below.
 
 
 <div align="center">
-🛡️Activities Performed 
+⚒️Activities Performed 
 </p>
 
 </div> 
@@ -252,7 +252,7 @@ e). Generate a network topology
 
 ---
 
-# 🎯 7. Risk Analysis / Impact
+# ⛔ 7. Risk Analysis / Impact
 
 Based on the information collected during the footprinting and network scanning activities, I identified the following potential risks.
 
@@ -278,7 +278,7 @@ Therefore, the presence of information such as a software version, IP address or
 
 ---
 
-# 🛡️ 8. Recommendations
+# 🪛 8. Recommendations
 
 ## Based on the observations from these activities, I recommend the following security improvements:
 
@@ -311,7 +311,7 @@ Therefore, the presence of information such as a software version, IP address or
 
 ---
 
-# 🎯 9. Security Assessment Summary
+# 📜 9. Security Assessment Summary
 
 | **Category** | **Status**| 
 |---|---|
